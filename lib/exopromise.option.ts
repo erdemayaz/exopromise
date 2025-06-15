@@ -1,0 +1,1 @@
+export const EXOPROMISE_OPTIONS: { baseUrl: string } = { baseUrl: 'http://localhost:3000' };

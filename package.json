@@ -1,0 +1,18 @@
+{
+  "name": "exopromise",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "nest build",
+    "format": "prettier --write \"lib/**/*.ts\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["backend", "nestjs", "promise", "async"],
+  "author": "Erdem Ayaz",
+  "license": "MIT",
+  "description": "A NestJS module that provides a Promise-based API for executing asynchronous operations.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@nestjs/common": "^11.1.3"
+  }
+}
