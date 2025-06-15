@@ -18,9 +18,9 @@ Import ExopromiseModule into the AppModule;
 import { ExopromiseModule } from 'exopromise';
 
 @Module({
-imports: [ExopromiseModule.register({ baseUrl: 'http://localhost:3000' })],
-controllers: [AppController],
-providers: [AppService]
+    imports: [ExopromiseModule.register({ baseUrl: 'http://localhost:3000' })],
+    controllers: [AppController],
+    providers: [AppService]
 })
 export  class  AppModule  {}
 ```
